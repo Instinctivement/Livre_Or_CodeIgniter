@@ -12,7 +12,7 @@
 
 			<p>
 				Il y a actuellement <?php echo $nb_commentaires; ?> commentaires. <br />
-				<?php echo url('écrire un commentaire', 'livreor/ecrire'); ?>
+				<?php echo url('écrire un commentaire', 'livreor/ecrire'); ?>
 			</p>
 
 			<div class="pagination"><?php echo $pagination; ?></div>

@@ -73,6 +73,7 @@ public function voir($g_nb_commentaire = 1)
 	
 	//	On charge la vue
 	$this->load->view('livreor/afficher_commentaires', $data);
+
 }
 	
 // ------------------------------------------------------------------------
